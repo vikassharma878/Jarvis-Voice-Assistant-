@@ -10,7 +10,7 @@ from ai_client import ai_respond
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-news_api="c4310929d20f47939974587fa49478e8"
+news_api="USE-YOUR-APIKEY"
 
 def speak(text):
     engine.say(text)
